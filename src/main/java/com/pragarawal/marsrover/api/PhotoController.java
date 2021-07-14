@@ -17,6 +17,7 @@ import java.io.IOException;
 
 @RequestMapping("photos")
 @RestController
+@CrossOrigin(origins = "https://marsrover.apps.ibcn.tacticalprogramming.com")
 public class PhotoController {
 
     private final PhotoService photoService;

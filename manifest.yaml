@@ -1,0 +1,10 @@
+---
+applications:
+- name: marsrover-backend
+  path: target/marsrover-0.0.1-SNAPSHOT.jar
+  routes:
+  - route: marsrover-backend.apps.ibcn.tacticalprogramming.com
+  env:
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+    BASE_URL: 'https://marsrover-backend.apps.ibcn.tacticalprogramming.com/'
+    NASA_API_KEY: dd6pMbaFxENDtVJfoOQvafbfURkMtwiQktahRhM0
