@@ -24,8 +24,10 @@ class App extends Component {
   handleSubmit = async (event) => {
     event.preventDefault();
     const {photo} = this.state;
+    let backend = 'https://marsrover-backend.apps.ibcn.tacticalprogramming.com';
     if (photo.date) {
-      const response = await fetch('/photos/' + photo.date);
+      console.log('photo.date='+photo.date+' photo: ', photo);
+      const response = await fetch(backend+'/photos/' + photo.date);
       const body = await response.json();
       this.setState({photo: body, isLoading: false, notFound: !body.url});
     }
