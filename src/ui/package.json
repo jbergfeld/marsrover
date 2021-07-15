@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "public": "https://marsrover-backend.apps.ibcn.tacticalprogramming.com",
+  "public": "https://webdb-e2e-workshop-w02-s387.tools.pez.aws.grogscave.net:8080",
   "eslintConfig": {
     "extends": "react-app"
   },
