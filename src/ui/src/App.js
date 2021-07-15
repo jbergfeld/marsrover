@@ -24,7 +24,7 @@ class App extends Component {
   handleSubmit = async (event) => {
     event.preventDefault();
     const {photo} = this.state;
-    let backend = 'https://webdb-e2e-workshop-w02-s387.tools.pez.aws.grogscave.net:8080';
+    let backend = 'https://webdb-e2e-workshop-w02-s387.tools.pez.aws.grogscave.net';
     if (photo.date) {
       console.log('photo.date='+photo.date+' photo: ', photo);
       const response = await fetch(backend+'/photos/' + photo.date);

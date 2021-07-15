@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "public": "https://webdb-e2e-workshop-w02-s387.tools.pez.aws.grogscave.net:8080",
+  "public": "https://webdb-e2e-workshop-w02-s387.tools.pez.aws.grogscave.net",
   "eslintConfig": {
     "extends": "react-app"
   },
